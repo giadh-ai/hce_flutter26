@@ -42,7 +42,9 @@ class _TrangChuState extends State<TrangChu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hồ Sơ Cá Nhân'),
+        title: const Text('Hồ Sơ Cá Nhân', 
+        style: TextStyle(fontSize: 40, fontFamily: 'Northwell'),
+        ),
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),

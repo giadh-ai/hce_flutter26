@@ -16,7 +16,7 @@ class Trang1 extends StatelessWidget {
           ),
           Text(
             'Xin chào Việt Nam',
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(fontSize: 20, fontFamily: 'Northwell'),
             softWrap: true,
           ),
 
